@@ -74,6 +74,7 @@ public class DetailActivity extends AppCompatActivity {
                  intentStringExtra = intent.getStringExtra(Intent.EXTRA_TEXT);
                  textView.setText(intentStringExtra);
              }
+
              return inflate;
          }
      }
